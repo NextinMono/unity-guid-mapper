@@ -15,7 +15,7 @@ public class GUIDMapper : EditorWindow
     private List<string> m_Files;
     private string oldGUID;
     private List<string> m_FilteredFiles = new List<string>();
-    [MenuItem("MonoSpace/Tools/GUID Mapper")]
+    [MenuItem("Tools/GUID Mapper")]
     public static void ShowTool()
     {
         GetWindow<GUIDMapper>().Show();
